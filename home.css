@@ -4,11 +4,10 @@ body {
     margin-left: 10px;
     color: lightcyan;
     font-family: 'Bree Serif', serif;
-
 }
 .logo {
- width: 200px;
- margin-left: 30px;
+    height: 100px;
+    margin-left: 30px;
 }
 .card > a {
     text-decoration: none;
@@ -26,8 +25,12 @@ body {
     cursor: pointer;
 }
 .board {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
 }
